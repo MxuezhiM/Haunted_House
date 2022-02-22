@@ -1,4 +1,4 @@
-# Haunted_House
+# 🕍Haunted_House
 ######
 ## -Members of the team:
 #### Xuezhi and Xin, Xuezhi = after, Xin = before, the game isn't finished, we will continue finishing the story line.
