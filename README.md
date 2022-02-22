@@ -1,6 +1,5 @@
 # Haunted_House
-#
-#
+######
 ## Members of the team
 #### Xuezhi and Xin
 #
