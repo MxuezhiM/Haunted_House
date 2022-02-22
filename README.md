@@ -27,10 +27,10 @@
            show xuezhiscare at left
            xuezhi "How? How are we still not up yet?!"
            show xinscare at right
-          
            xin "I think we are stuck on this stair, it is like a infinite loop of stair, just like the horror movies!"
            xuezhi "Oh man, I'm starting to really getting chills on me"
            xin "Now what we do?"
+          
           menu:
           "Try to find the reason on your phone":
            xuezhi "Let's try to find out the reason on the phone"
@@ -45,7 +45,8 @@
            hide xinscare
            show phone
           "......"
-            jump gosecondfloor
+           jump gosecondfloor
+          
           "Run to downstair":
            "Running back to downstair didn't work for you and you guys died because of hungry and thirsty after 1 week stuck on the stairs"
            "Bad Ending"
