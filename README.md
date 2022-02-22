@@ -1,5 +1,13 @@
 # Haunted_House
-#### Xuezhi and Xincheng
-## I learn to code in renpy
-## To do a intro for a renpy game
+
+## Members of the team
+#### Xuezhi and Xin
+
+## What I learn
+#### I learn how to code a visual novel in Renpy and 
+
+## What can I teach
+#### 
+
 ## Bibliography
+####
