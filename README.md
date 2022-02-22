@@ -5,7 +5,7 @@
 #
 #
 ## What I learn
-#### I learn how to code a visual novel with options and differents endings and also having adding audios for more realistic experience and background music for differents situacions ( Find reference in 
+#### I learn how to code a visual novel with options and differents endings and also having adding audios for more realistic experience and background music for differents situacions ( Find reference in https://github.com/MxuezhiM/Haunted_House/blob/4a2b9e1e4fdb73b719e7bcf7cc1171631a33b064/script/after.rpy )
 #
 #
 ## What can I teach
