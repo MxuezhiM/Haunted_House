@@ -6,7 +6,7 @@
 #
 ## -What I learn:
 #### I learn how to code a visual novel with options and differents endings and also having adding audios for more realistic experience and background music for differents situacions 
-``` Python
+``` Renpy
         //here you can see some code I do to make audios works and differents options I give to the player
 
         label upstairs:
