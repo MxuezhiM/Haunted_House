@@ -8,47 +8,47 @@
 #### I learn how to code a visual novel with options and differents endings and also having adding audios for more realistic experience and background music for differents situacions 
 //here you can see some code I do to make audios works and differents options I give to the player
 
-label upstairs:
-        scene mansionstair
-        "......"
-        stop sound
-        show xuezhiquestion at left
-        xuezhi "Haven't we reach yet?"
-        show xinquestion at right
-        xin "I have a felling of walking on this stair for years already"
-        xuezhi "but the second floor seems so close, how are we not up there yet?"
-        xin "I don't understand neither"
-        xuezhi "let's just keep going I guess"
-        hide xuezhiquestion
-        hide xinquestion
-        play sound walkonwood
-        "......"
-        stop sound
-        show xuezhiscare at left
-        xuezhi "How? How are we still not up yet?!"
-        show xinscare at right
-        xin "I think we are stuck on this stair, it is like a infinite loop of stair, just like the horror movies!"
-        xuezhi "Oh man, I'm starting to really getting chills on me"
-        xin "Now what we do?"
-    menu:
-        "Try to find the reason on your phone":
-            xuezhi "Let's try to find out the reason on the phone"
-            show xuezhiquestion at left
-            xuezhi "It says that the loop is caused because a invisible ghost is blocking the way"
-            xuezhi "If we open the camara, we may saw he through the phone and escape from he"
-            xuezhi "All what we need to do is not touch the ghost or we are gonna be sent back again in the loop"
-            show xuezhiangry at left
-            xuezhi "Let's do this!"
-            xin "Okay, so lets see where is the ghost"
-            hide xuezhiangry
-            hide xinscare
-            show phone
-            "......"
-            jump gosecondfloor
-        "Run to downstair":
-            "Running back to downstair didn't work for you and you guys died because of hungry and thirsty after 1 week stuck on the stairs"
-            "Bad Ending"
-    return
+        label upstairs:
+           scene mansionstair
+           "......"
+           stop sound
+           show xuezhiquestion at left
+           xuezhi "Haven't we reach yet?"
+            show xinquestion at right
+           xin "I have a felling of walking on this stair for years already"
+          xuezhi "but the second floor seems so close, how are we not up there yet?"
+         xin "I don't understand neither"
+         xuezhi "let's just keep going I guess"
+          hide xuezhiquestion
+          hide xinquestion
+         play sound walkonwood
+         "......"
+         stop sound
+         show xuezhiscare at left
+         xuezhi "How? How are we still not up yet?!"
+          show xinscare at right
+         xin "I think we are stuck on this stair, it is like a infinite loop of stair, just like the horror movies!"
+         xuezhi "Oh man, I'm starting to really getting chills on me"
+         xin "Now what we do?"
+          menu:
+          "Try to find the reason on your phone":
+             xuezhi "Let's try to find out the reason on the phone"
+             show xuezhiquestion at left
+                   xuezhi "It says that the loop is caused because a invisible ghost is blocking the way"
+                    xuezhi "If we open the camara, we may saw he through the phone and escape from he"
+                   xuezhi "All what we need to do is not touch the ghost or we are gonna be sent back again in the loop"
+                   show xuezhiangry at left
+                    xuezhi "Let's do this!"
+                   xin "Okay, so lets see where is the ghost"
+                    hide xuezhiangry
+                    hide xinscare
+                   show phone
+                   "......"
+                   jump gosecondfloor
+                "Run to downstair":
+                 "Running back to downstair didn't work for you and you guys died because of hungry and thirsty after 1 week stuck on the stairs"
+                "Bad Ending"
+        return
 
 #### ( Find reference in https://github.com/MxuezhiM/Haunted_House/blob/4a2b9e1e4fdb73b719e7bcf7cc1171631a33b064/script/after.rpy )
 #
