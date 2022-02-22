@@ -34,21 +34,21 @@ label splashscreen:
     return
     
 // And the last thing you have to do is just define the differents transformations 
-transform transform_logo:
+    transform transform_logo:
     on show:
         alpha 0 xalign 0.5 yalign 0.5
         linear 2.0 alpha 1
     on hide:
         linear 2.0 alpha 0
 
-transform transform_white:
+    transform transform_white:
     on show:
         alpha 0
         linear 2.0 alpha 1
     on hide:
         linear 2.0 alpha 0
         
-transform transform_blink:
+    transform transform_blink:
     linear 1.0 alpha 0.2
     linear 1.0 alpha 1.0
     repeat
