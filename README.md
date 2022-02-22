@@ -58,7 +58,6 @@
 ## -What can I teach:
 #### I could teach people on how to do a intro animation for your game when opening the game
 
-
 //first you have to define your logo as a image, which in my case I did the Bandai Namco intro of year 2000 and also define the black and white image to make the blink transformation    
     image black = "#000"
     image white = "#ffffff"
