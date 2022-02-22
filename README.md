@@ -104,8 +104,7 @@
     linear 1.0 alpha 0.2
     linear 1.0 alpha 1.0
     repeat
-```Renpy
-
+```
 #### you could go to https://github.com/MxuezhiM/Haunted_House/blob/1e2f0a32a0b7c6c435458e3841e4e14544faeb87/script/intro.rpy to check the full script
 #
 #
