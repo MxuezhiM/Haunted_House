@@ -98,7 +98,8 @@
         linear 2.0 alpha 1
     on hide:
         linear 2.0 alpha 0
-   transform transform_blink:
+   
+    transform transform_blink:
     linear 1.0 alpha 0.2
     linear 1.0 alpha 1.0
     repeat
