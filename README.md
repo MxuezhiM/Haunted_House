@@ -56,7 +56,7 @@
     linear 1.0 alpha 1.0
     repeat
 
-#### you could go to https://github.com/MxuezhiM/Haunted_House/blob/1e2f0a32a0b7c6c435458e3841e4e14544faeb87/script/intro.rpy to check the intro I made as an example, I remade the intro of Bandai Namco in year 2000
+#### you could go to https://github.com/MxuezhiM/Haunted_House/blob/1e2f0a32a0b7c6c435458e3841e4e14544faeb87/script/intro.rpy to check the full script
 #
 #
 ## -Bibliography:
