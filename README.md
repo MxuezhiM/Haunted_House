@@ -6,7 +6,7 @@
 #
 ## -What I learn:
 #### I learn how to code a visual novel with options and differents endings and also having adding audios for more realistic experience and background music for differents situacions 
-        
+``` Python
         //here you can see some code I do to make audios works and differents options I give to the player
 
         label upstairs:
@@ -52,6 +52,7 @@
            "Running back to downstair didn't work for you and you guys died because of hungry and thirsty after 1 week stuck on the stairs"
            "Bad Ending"
            return
+```
 
 #### ( Find reference in https://github.com/MxuezhiM/Haunted_House/blob/4a2b9e1e4fdb73b719e7bcf7cc1171631a33b064/script/after.rpy )
 #
