@@ -11,12 +11,14 @@
 ## -What can I teach:
 #### I could teach people on how to do a intro animation for your game when opening the game
 //first you have to define your logo as a image, which in my case I did the Bandai Namco intro of year 2000 and also define the black and white image to make the blink transformation
-image black = "#000"
-image white = "#ffffff"
-image logo = "logo.png"
+    
+    image black = "#000"
+    image white = "#ffffff"
+    image logo = "logo.png"
 
 //After I did a label for the transformations
-label splashscreen:
+    
+    label splashscreen:
     scene black
     $ renpy.pause(1, hard=True)
     show white at transform_white
@@ -34,7 +36,8 @@ label splashscreen:
     return
     
 // And the last thing you have to do is just define the differents transformations 
-    transform transform_logo:
+   
+   transform transform_logo:
     on show:
         alpha 0 xalign 0.5 yalign 0.5
         linear 2.0 alpha 1
